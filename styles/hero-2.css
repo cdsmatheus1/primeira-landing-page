@@ -1,0 +1,57 @@
+.hero-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-2-img {
+    margin-top: -150px;
+}
+.container-hero-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-2-titulo {
+    font-size: var(--font-48px);
+    color: var(--segunda-cor);
+}
+
+.hero-2-titulo b {
+    font-weight: 700;
+}
+
+.hero-2-titulo strong {
+    background-image: url(/img/linha\ 2.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    background-size: 100%;
+}
+
+.hero-2-texto-1 {
+    font-size: var(--font-24px);
+    color: var(--segunda-cor);
+    width: 80%;
+    line-height: 30px;
+}
+
+.hero-2-texto-2 {
+    font-size: var(--font-24px);
+    color: var(--segunda-cor);
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-2-button {
+    background-color: var(--segunda-cor);
+    padding: 22px 40px;
+    border-radius: 10px;
+    color: var(--primeira-cor);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    width: 20%;
+}

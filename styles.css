@@ -1,0 +1,54 @@
+@import url('./styles/cabecalho.css');
+@import url('./styles/hero-1.css');
+@import url('./styles/call-to-action-1.css');
+@import url('./styles/hero-2.css');
+@import url('./styles/cards.css');
+@import url('./styles/testemunho.css');
+@import url('./styles/footer.css');
+
+:root {
+    
+     /* Cores */
+
+     --primeira-cor: #fff;
+     --segunda-cor: #331b3b;
+     --terceira-cor: #fdc021;
+     --quarta-cor: #fec828;
+     --quita-cor: #ecf7ff;
+     --sexta-cor: #ffded4;
+     --setima-cor: #000;
+
+
+     /* Tipografia */
+
+     --font-hind: "Hind Vadodara", sans-serif;
+     --font-Playfair: "Playfair Display", sans-serif;
+
+     /* Tamanhos de fonte */
+
+     --font-14px: 0.875rem;
+     --font-15px: 0.938rem;
+     --font-16px: 1rem;
+     --font-17px: 1.063rem;
+     --font-24px: 1.5rem;
+     --font-48px: 3rem;
+     --font-87px: 5.438rem;
+
+     /* Espaçamentos */
+
+     --padding-09px: 0.563rem;
+     --padding-22px: 1.375rem;
+     --padding-27px: 1.688rem;
+     --padding-31px: 1.938rem;
+     --padding-37px: 2.313rem;
+     --padding-41px: 2.563rem;
+     --padding-47px: 2.938rem;
+     --padding-50px: 3.125rem;
+     --padding-95px: 5.938rem;
+
+}
+
+body {
+    padding: var(--padding-47px) var(--padding-50px);
+    font-family: var(--font-hind);
+}

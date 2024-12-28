@@ -1,0 +1,70 @@
+.apps {
+    background-image: url(/img/background\ rosa.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 630px;
+    margin-right: -50px;
+}
+
+.apps-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    padding: 90px;
+}
+
+.apps-titulo {
+    font-size: var(--font-48px);
+    color: var(--segunda-cor);
+}
+
+.apps-titulo b {
+    font-weight: 800;
+}
+
+.apps-titulo strong {
+    background-image: url(/img/linha\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 45px;
+}
+
+.apps-texto {
+    width: 40%;
+    color: var(--segunda-cor);
+}
+
+.apps-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.apps-container-cards {
+    background-color: var(--primeira-cor);
+    margin: 0 50px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+}
+
+.apps-card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 16px;
+}
+
+.apps-titulo-card {
+    font-weight: 700;
+    color: var(--segunda-cor);
+}
+
+.apps-button {
+    border: 1px solid var(--segunda-cor);
+    padding: 8px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--segunda-cor);
+    font-size: 12px;
+}

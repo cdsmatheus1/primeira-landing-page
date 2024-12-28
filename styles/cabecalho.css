@@ -1,0 +1,43 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-menu {
+    display: flex;
+    gap: var(--padding-41px);
+}
+
+.container-menu-link {
+    text-decoration: none;
+    color: var(--segunda-cor);
+    position: relative;
+    padding-bottom: 0.25rem;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: var(--terceira-cor);
+        transition: width 0.3s ease;
+    }
+}
+
+.container-menu-link:hover::after, 
+.container-menu-link:focus::after {
+    width: 100%;
+}
+
+.container-menu-link:focus {
+    font-weight: 700;
+}
+
+.nome-marca {
+    font-size: var(--padding-27px);
+    font-family: var(--font-Playfair);
+    color: var(--segunda-cor);
+}

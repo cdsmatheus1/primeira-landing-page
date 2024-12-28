@@ -1,0 +1,48 @@
+.testemunho-titulo {
+    margin: 200px 0 20px 0;
+    text-align: center;
+    font-size: var(--font-48px);
+    color: var(--segunda-cor);
+}
+
+.testemunho-titulo b {
+    font-weight: 700;
+}
+
+.testemunho-titulo strong {
+    background-image: url(/img/linha\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 48px;
+}
+
+.testemunho-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 50px;
+
+    margin: 0 400px;
+}
+
+.container-testemunho {
+    background-color: var(--primeira-cor);
+    padding: 50px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.testemunho-texto {
+    margin-bottom: 20px;
+    color: var(--segunda-cor);
+}
+
+.testemunho-autor {
+    color: var(--segunda-cor);
+    font-weight: 700;
+}
+
+.testemunho-autor b {
+    color: var(--terceira-cor);
+}

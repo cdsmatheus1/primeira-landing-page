@@ -1,0 +1,50 @@
+.hero-1 {
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url('/img/hero\ 1.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 348px 0;
+    background-position-x: right;
+    margin: -114px -50px -114px 0;
+}
+
+.container-hero-1-titulo {
+    font-size: var(--font-87px);
+    color: var(--segunda-cor);
+    margin: -120px 0 var(--padding-27px);
+}
+
+.container-hero-1-titulo b {
+    font-weight: 800;
+}
+
+.container-hero-1-titulo strong {
+    background-image: url(/img/linha.svg);
+    background-repeat: no-repeat;
+    background-position-y: 85px;
+    background-size: 95%;
+}
+
+.container-hero-1-texto {
+    width: 39%;
+    line-height: 30px;
+    font-size: var(--font-24px);
+    color: var(--segunda-cor);
+    margin-bottom: 70px;
+}
+
+.container-hero-1-button {
+    background-color: var(--segunda-cor);
+    color: var(--primeira-cor);
+    text-decoration: none;
+    padding: 21px 49px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.container-hero-1-button:hover {
+    padding: 25px 53px;
+    transition: 0.1s;
+}

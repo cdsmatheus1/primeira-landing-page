@@ -1,0 +1,60 @@
+.chamada-1 {
+    background-image: url(/img/background\ azul.svg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    padding: 195px 0 430px 0;
+    margin: 0px -50px -50px -50px;
+}
+
+.chamada-1-titulo {
+    justify-content: center;
+    text-align: center;
+    font-size: var(--font-48px);
+    color: var(--segunda-cor);
+    font-weight: 300;
+    margin-top: -80px;
+}
+
+.chamada-1-titulo b {
+    font-weight: 800;
+}
+
+.chamada-1-titulo strong {
+    background-image: url(/img/linha.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 45px;
+}
+
+.chamada-1-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 50px 0 50px;
+    gap: 30px;
+}
+
+
+.container-chamada-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: var(--primeira-cor);
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chamada-1-icone {
+    width: 18%;
+}
+
+.chamada-1-titulo-1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--segunda-cor);
+}
+
+.chamada-1-texto {
+    font-size: var(--font-15px);
+    color: var(--segunda-cor);
+}
